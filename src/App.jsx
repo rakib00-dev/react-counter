@@ -25,7 +25,6 @@ function App() {
 
     document.getElementById('head').innerHTML = 0;
     document.getElementById('btnval').innerHTML = 0;
-    // localStorage.removeItem('data', val);
   };
 
   return (
