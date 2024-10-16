@@ -22,7 +22,9 @@ function App() {
   };
 
   const clearCount = () => {
-    setCount(0);
+    // setCount(0);
+    val = 0;
+    localStorage.setItem('data', val);
 
     document.getElementById('head').innerHTML = 0;
     document.getElementById('btnval').innerHTML = 0;
