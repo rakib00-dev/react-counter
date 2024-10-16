@@ -5,10 +5,8 @@ import './App.css';
 function App() {
   let val = localStorage.getItem('data');
   let val2 = Number(val);
-  console.log(val2);
 
   const [count, setCount] = useState(val2);
-  console.log(val);
   console.log(count);
 
   function OnFun() {
@@ -22,7 +20,6 @@ function App() {
   };
 
   const clearCount = () => {
-    // setCount(0);
     val = 0;
     localStorage.setItem('data', val);
 
